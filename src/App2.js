@@ -16,7 +16,7 @@ const App = ()=>{
     const [country, setCountry] = useState('us');
     // const [country, setCountry] = useState("in");
 
-    const ApiKey = process.env.REACT_APP_NEW_API;
+    const ApiKey = process.env.REACT_APP_NEWS_API;
 
     return (
         <div className='min-w-[375px]'>
